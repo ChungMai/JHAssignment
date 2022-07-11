@@ -1,0 +1,26 @@
+PODS:
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaLumberjack/Swift (3.7.4):
+    - CocoaLumberjack/Core
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack/Swift
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: d4a65c0eefe1d728d449c6bf6837555b704d9560
+
+COCOAPODS: 1.11.3

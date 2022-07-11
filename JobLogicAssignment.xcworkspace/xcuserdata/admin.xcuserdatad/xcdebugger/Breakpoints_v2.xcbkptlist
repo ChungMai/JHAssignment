@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBB4840F-F52D-47BB-B5A2-710628B59836"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA024230-9015-41D6-872A-C4C5606D60BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JobLogicAssignment/JHMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5510F020-7CCC-47C2-ADB0-F315E750BB7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JobLogicAssignment/SellList/Interactor/JHSellListInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "retrieveOrderItemsData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JobLogicAssignmentTests/JHOrderListTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "testBuyInteractor()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - 21f9ebfa1289b274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - 21f9ebfa1289b274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - a40027090f08cd49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testBuyInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - a40027090f08cecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testBuyInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - a40027090f08cdd5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testBuyInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+               <Location
+                  uuid = "E0763625-D263-4BE3-AC7B-B4E056EF29C3 - a40027090f08ce2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JobLogicAssignmentTests.JHOrderListTests.testBuyInteractor() -&gt; ()"
+                  moduleName = "JobLogicAssignmentTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chungmh/Documents/personal/temple_person/JobLogicAssignment/JobLogicAssignmentTests/JHOrderListTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "1808">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
