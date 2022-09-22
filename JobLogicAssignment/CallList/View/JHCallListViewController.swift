@@ -14,7 +14,7 @@ final class JHCallListViewController: BaseViewController {
     
     let disposeBg = DisposeBag()
     var presenter: JHCallListPresenterProtocol?
-    
+    @NSCopying var attributedText: NSAttributedString?
     private var contacts: [JHContact] {
         return self.presenter?.getContacts() ?? []
     }
@@ -26,14 +26,31 @@ final class JHCallListViewController: BaseViewController {
         return tableView
     }()
     
+    var name: String = ""
+    var completed: (() -> ())?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupSubviews()
         self.setupViewStyles()
         // Do any additional setup after loading the view.
         self.presenter?.retrieveContactsData()
+        DispatchQueue.global().async { [unowned self] in
+            print("In clossure")
+            sleep(10)
+//            self.name = "Chung Mai"
+        }
+        
+        completed = { [unowned self] in
+            self.name = "Chung"
+        }
+        completed?()
     }
     
+    deinit {
+        print("Deallocated")
+        print(self.name)
+    }
     private func setupViewStyles() {
         self.view.backgroundColor = .white
         self.title = "Call List"

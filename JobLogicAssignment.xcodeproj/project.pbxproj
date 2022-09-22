@@ -36,6 +36,9 @@
 		845853302879908600FBE9F4 /* JHBuyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458532F2879908600FBE9F4 /* JHBuyItem.swift */; };
 		84585333287996CB00FBE9F4 /* JHOrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84585332287996CB00FBE9F4 /* JHOrderListTableViewCell.swift */; };
 		845853362879A15400FBE9F4 /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845853352879A15400FBE9F4 /* CoreDataStorage.swift */; };
+		847681BA28DAC37E0092FD2C /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847681B928DAC37E0092FD2C /* Cancellable.swift */; };
+		847681BC28DAC4410092FD2C /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847681BB28DAC4410092FD2C /* APIEndpoints.swift */; };
+		847681BE28DAE9DB0092FD2C /* CallRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847681BD28DAE9DB0092FD2C /* CallRepository.swift */; };
 		84A4ABB12878284C0031C47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABB02878284C0031C47C /* AppDelegate.swift */; };
 		84A4ABB52878284C0031C47C /* JHMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABB42878284C0031C47C /* JHMenuViewController.swift */; };
 		84A4ABBB2878284C0031C47C /* JobLogicAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABB92878284C0031C47C /* JobLogicAssignment.xcdatamodeld */; };
@@ -52,6 +55,10 @@
 		84A4ABF628783DCD0031C47C /* JHMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABF528783DCD0031C47C /* JHMenuItemView.swift */; };
 		84A4ABFC287843E70031C47C /* TyleAliasDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABFB287843E70031C47C /* TyleAliasDefines.swift */; };
 		84A4ABFF287844250031C47C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ABFE287844250031C47C /* NetworkManager.swift */; };
+		84AAB92F28D9C66F00CCEE86 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB92E28D9C66F00CCEE86 /* NetworkConfig.swift */; };
+		84AAB93128D9C6AC00CCEE86 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB93028D9C6AC00CCEE86 /* Endpoint.swift */; };
+		84AAB93328D9C73E00CCEE86 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB93228D9C73E00CCEE86 /* DataTransferService.swift */; };
+		84AAB93528D9CBC700CCEE86 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB93428D9CBC700CCEE86 /* NetworkService.swift */; };
 		84E68A3C2879D68900C627BD /* JHSellItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E68A3A2879D68900C627BD /* JHSellItem+CoreDataClass.swift */; };
 		84E68A3D2879D68900C627BD /* JHSellItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E68A3B2879D68900C627BD /* JHSellItem+CoreDataProperties.swift */; };
 		8B5DB90171D7004DEED5237C /* Pods_JobLogicAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF93A0DBD028FDE9C16ADFE /* Pods_JobLogicAssignment.framework */; };
@@ -107,6 +114,9 @@
 		8458532F2879908600FBE9F4 /* JHBuyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHBuyItem.swift; sourceTree = "<group>"; };
 		84585332287996CB00FBE9F4 /* JHOrderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHOrderListTableViewCell.swift; sourceTree = "<group>"; };
 		845853352879A15400FBE9F4 /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
+		847681B928DAC37E0092FD2C /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		847681BB28DAC4410092FD2C /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		847681BD28DAE9DB0092FD2C /* CallRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallRepository.swift; sourceTree = "<group>"; };
 		84A4ABAD2878284C0031C47C /* JobLogicAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobLogicAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4ABB02878284C0031C47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A4ABB42878284C0031C47C /* JHMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHMenuViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +137,10 @@
 		84A4ABF528783DCD0031C47C /* JHMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHMenuItemView.swift; sourceTree = "<group>"; };
 		84A4ABFB287843E70031C47C /* TyleAliasDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TyleAliasDefines.swift; sourceTree = "<group>"; };
 		84A4ABFE287844250031C47C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84AAB92E28D9C66F00CCEE86 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		84AAB93028D9C6AC00CCEE86 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		84AAB93228D9C73E00CCEE86 /* DataTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		84AAB93428D9CBC700CCEE86 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		84E68A3A2879D68900C627BD /* JHSellItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHSellItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		84E68A3B2879D68900C627BD /* JHSellItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JHSellItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		855682160929C7291901F7FA /* Pods-JobLogicAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobLogicAssignment.release.xcconfig"; path = "Target Support Files/Pods-JobLogicAssignment/Pods-JobLogicAssignment.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				84A4ABFB287843E70031C47C /* TyleAliasDefines.swift */,
+				847681B928DAC37E0092FD2C /* Cancellable.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -362,6 +377,31 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		847681B628DABD6F0092FD2C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				847681B828DAC2210092FD2C /* Repositories */,
+				847681B728DAC21A0092FD2C /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		847681B728DAC21A0092FD2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				847681BB28DAC4410092FD2C /* APIEndpoints.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		847681B828DAC2210092FD2C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				847681BD28DAE9DB0092FD2C /* CallRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		84A4ABA42878284C0031C47C = {
 			isa = PBXGroup;
 			children = (
@@ -387,6 +427,8 @@
 		84A4ABAF2878284C0031C47C /* JobLogicAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				847681B628DABD6F0092FD2C /* Data */,
+				84AAB92D28D9C62B00CCEE86 /* Infrastructure */,
 				84A4ABFA287843AF0031C47C /* Common */,
 				845853342879A11F00FBE9F4 /* CoreData */,
 				84A4ABFD287844030031C47C /* Network */,
@@ -508,6 +550,17 @@
 				844B593C2878781C00BCC2D5 /* NetworkRequestBuilder.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		84AAB92D28D9C62B00CCEE86 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				84AAB92E28D9C66F00CCEE86 /* NetworkConfig.swift */,
+				84AAB93028D9C6AC00CCEE86 /* Endpoint.swift */,
+				84AAB93228D9C73E00CCEE86 /* DataTransferService.swift */,
+				84AAB93428D9CBC700CCEE86 /* NetworkService.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		D56A5A99F3EBCFFFAAC975FF /* Pods */ = {
@@ -763,6 +816,8 @@
 			files = (
 				844B595128788B0E00BCC2D5 /* JHCallListViewModel.swift in Sources */,
 				844B594E28788B0E00BCC2D5 /* JHCallListViewController.swift in Sources */,
+				84AAB92F28D9C66F00CCEE86 /* NetworkConfig.swift in Sources */,
+				847681BC28DAC4410092FD2C /* APIEndpoints.swift in Sources */,
 				844B594D28788B0E00BCC2D5 /* JHCallListPresenter.swift in Sources */,
 				843E7A05287BFA8200EB0960 /* JHLoadingView.swift in Sources */,
 				844B593D2878781C00BCC2D5 /* NetworkRequestBuilder.swift in Sources */,
@@ -783,6 +838,7 @@
 				8458532D2879818500FBE9F4 /* UITableViewCell+Extensions.swift in Sources */,
 				84A4ABF628783DCD0031C47C /* JHMenuItemView.swift in Sources */,
 				845853302879908600FBE9F4 /* JHBuyItem.swift in Sources */,
+				847681BA28DAC37E0092FD2C /* Cancellable.swift in Sources */,
 				84A4ABFF287844250031C47C /* NetworkManager.swift in Sources */,
 				84A4ABF3287834DF0031C47C /* JHMenuViewModel.swift in Sources */,
 				8453982E2879180600052251 /* JHOrderListViewController.swift in Sources */,
@@ -790,11 +846,15 @@
 				844B595028788B0E00BCC2D5 /* JHCallListInteractor.swift in Sources */,
 				84A4ABEC28782F3F0031C47C /* JHMenuInteractor.swift in Sources */,
 				843E7A00287BF37B00EB0960 /* JHCenterErrorView.swift in Sources */,
+				847681BE28DAE9DB0092FD2C /* CallRepository.swift in Sources */,
 				845853362879A15400FBE9F4 /* CoreDataStorage.swift in Sources */,
 				84A4ABEA28782ED50031C47C /* JHMenuPresenter.swift in Sources */,
 				844B595228788B0E00BCC2D5 /* JHCallListRouter.swift in Sources */,
 				84A4ABF028782F580031C47C /* JHMenuProtocols.swift in Sources */,
+				84AAB93528D9CBC700CCEE86 /* NetworkService.swift in Sources */,
+				84AAB93128D9C6AC00CCEE86 /* Endpoint.swift in Sources */,
 				84539836287918EA00052251 /* JHOrderListProtocols.swift in Sources */,
+				84AAB93328D9C73E00CCEE86 /* DataTransferService.swift in Sources */,
 				84A4ABEE28782F4B0031C47C /* JHMenuRouter.swift in Sources */,
 				8458532B28796A9400FBE9F4 /* JHCallListTableCellView.swift in Sources */,
 				84E68A3D2879D68900C627BD /* JHSellItem+CoreDataProperties.swift in Sources */,
